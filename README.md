@@ -70,7 +70,12 @@ The queries below are taken from the workbook's Power Query (M) code. Long colum
 
 ### 1. Cleaning and enriching the job postings (`data_jobs_salary`)
 
+<img width="1916" height="649" alt="2_Project_Analysis_Screenshot3" src="https://github.com/user-attachments/assets/a926ad20-c264-41e3-8dcc-42df5b40669b" />
+
+
 ```powerquery
+
+
 let
     Source = Excel.Workbook(File.Contents("<path>\data_jobs_salary_all.xlsx"), null, true),
     Sheet1_Sheet = Source{[Item="Sheet1",Kind="Sheet"]}[Data],
@@ -95,7 +100,11 @@ in
 
 ### 2. Turning a skills list into one row per skill (`data_jobs_skills`)
 
+
+<img width="1914" height="702" alt="2_Project_Analysis_Screenshot4" src="https://github.com/user-attachments/assets/b8213d77-dc1f-431e-b1af-8de354b2a0e1" />
+
 ```powerquery
+
 let
     Source = data_jobs_salary,
     #"Removed Other Columns" = Table.SelectColumns(Source, {"job_id", "job_skills"}),
