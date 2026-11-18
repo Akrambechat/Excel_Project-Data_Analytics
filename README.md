@@ -7,6 +7,7 @@
 ![Power Pivot](https://img.shields.io/badge/Power%20Pivot-Data%20Model-F2C811)
 ![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)
 
+
 ---
 
 ## 📌 Overview
@@ -219,4 +220,9 @@ Distributed under the **MIT License**. See [`LICENSE`](LICENSE) for details.
 
 ## 👤 Author
 
-**Akram** · GitHub: [@Akrambechat](https://github.com/Akrambechat)
+**Akram Bechat**
+
+[![GitHub](https://img.shields.io/badge/GitHub-Akrambechat-181717?logo=github&logoColor=white)](https://github.com/Akrambechat)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-0A66C2?logo=linkedin&logoColor=white)](https://www.linkedin.com/in/akram-bechat-169651317)
+[![Email](https://img.shields.io/badge/Email-Contact-D14836?logo=gmail&logoColor=white)](mailto:akram7.bechat@gmail.com)
+---
